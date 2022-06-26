@@ -1,0 +1,70 @@
+/* experiencia*/
+
+.experience{
+    padding: 50px;
+
+}
+.experience__section__title{
+    color:var(--color-letra);
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.experiencie__box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.experiencie__proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.experience__img{
+    width: 50%;
+}
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    text-align: center;
+}
+.horca{
+    flex-direction: row-reverse;
+}
+.experience__title{
+    color: var(--color-letra);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+.experience__text{
+    color: var(--color-letra);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.experience__description{
+    margin: 10px;
+}
+
+.experience__botao--demo,.experiencia__botao--repo{
+    border-radius: 5px;
+    margin: 5px 10px; 
+    background: var(--color-menu);
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width: 740px){
+    .experience__img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+/*Sección Menu*/
+.menu{
+    font-size: 18px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-menu);
+}
+.menu__title{
+    font-weight: bold;
+    display:  inline-block;
+    vertical-align: middle;
+}
+.menu__nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+}
+.menu__list__item{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+}
+.contacto{
+    font-weight: bold;
+}
+@media (max-width: 480px) {
+
+    /*Menu*/
+    .menu__list{
+        display:none ;
+    }
+}
+@media (max-width: 740px){
+    .menu__list__item{
+        display: none;
+    }
+}

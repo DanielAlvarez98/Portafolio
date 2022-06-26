@@ -1,0 +1,15 @@
+.footer__rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+   background: var(--color-menu);
+}
+.footer__social{
+    margin: auto 10px;
+    font-weight: bold;
+}
+.footer__name{
+    margin: auto 10px;
+    font-weight: bold;
+}

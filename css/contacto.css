@@ -1,0 +1,81 @@
+
+/*Contacto*/
+
+.formcontato{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.formcontato__contacto{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.formcontato__texto{
+    background: var(--color-descrip);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin:20px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+}
+.formcontato__title{
+    color: var(--color-letra);
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center
+}
+.formato{
+    margin: 5px;
+    border-radius: 5px;
+    background: var(--color-letra);
+    color: black;
+    padding: 7px; 
+    border-style: solid;
+}
+.formcontato__subtext{
+    color: var(--color-letra);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px;
+}
+.formcontato__botao{
+    margin: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    background:var(--color-menu);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+#validar{
+    color: red;
+ 
+}
+#enviado{
+    color: green;
+}
+
+@media (max-width: 740px){
+    .formcontato__texto{
+        width: 100%;
+    }
+}
